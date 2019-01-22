@@ -333,8 +333,8 @@ header.top h3:after {
   margin-top: 5vh;
 
   /* SLANTS THE MENU */
-  /*-webkit-perspective: 1000px;*/
-  /*perspective: 1000px;*/
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }

@@ -7,7 +7,10 @@ class Order extends Component {
 
 	render() {
 		return (
-			<div className="order">Order Works</div>
+			<div className="order">
+				<h2>Orders</h2>
+
+			</div>
 		)
 	}
 
