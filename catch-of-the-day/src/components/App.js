@@ -1,10 +1,9 @@
-import React, {Fragment} from 'react'
+import React, {Fragment, Component} from 'react'
 import Header from '../components/Header'
-import StorePicker from "./StorePicker";
 import Inventory from '../components/Inventory'
 import Order from '../components/Order'
 
-class App extends React.Component {
+class App extends Component {
 
 	render() {
 		return (<Fragment>
@@ -12,8 +11,8 @@ class App extends React.Component {
 
 					<div className="menu">
 
-						<Header tagline="David is cool" age={100}/>
-						<Order/>
+						<Header tagline="Fresh Seafood Market"/>
+						<Order />
 						<Inventory/>
 
 

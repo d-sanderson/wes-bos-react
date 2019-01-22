@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = ({tagline, age}) =>  (
+const Header = ({tagline}) =>  (
 			<header className="top">
 				<h1> Catch
 					<span className="ofThe">
@@ -10,7 +10,7 @@ const Header = ({tagline, age}) =>  (
 					Day
 					</h1>
 				<h3 className="tagline">
-					<span>{tagline} {age}</span>
+					<span>{tagline}</span>
 				</h3>
 			</header>
 );
